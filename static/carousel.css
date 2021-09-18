@@ -1,0 +1,40 @@
+.carousel-control-next{
+width: 70px;
+height: 70px;
+background-color: deepskyblue;
+border-radius: 50%;
+right: 2%;
+top: calc(50% - 35px);
+}
+
+.carousel-control-prev{
+width: 70px;
+height: 70px;
+background-color: deepskyblue;
+border-radius: 50%;
+left: 2%;
+top: calc(50% - 35px);
+}
+
+
+.carousel-indicators{
+top: 2.5%;
+}
+
+.carousel-indicators li{
+width: 20px;
+height: 20px;
+border-radius: 100%;
+background-color: deepskyblue;
+}
+
+.card-img-top{
+max-width: 348px;
+height: 233px;
+overflow: hidden;
+object-fit: cover;
+}
+
+.card-title{
+height: 116px;
+}
