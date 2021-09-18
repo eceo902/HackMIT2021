@@ -32,6 +32,13 @@ def news():
 
     return render_template("news.html", rtn=rtn)
 
+@app.route('/events')
+def events():
+	return render_template('events.html')
+
+@app.route('/my-events')
+def my_events():
+	return render_template('my_events.html')
 
 if __name__ == '__main__':
 	app.run(debug=True)
